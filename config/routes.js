@@ -31,8 +31,8 @@ module.exports.routes = {
      *                                                                          *
      ***************************************************************************/
 
-    '/fitbit/': 'FitbitApiController.auth()',
-    '/fitbit/callback': 'FitbitApiController.callBack()'
+    '/fitbit/': 'FitbitApiController.auth',
+    '/fitbit/callback': 'FitbitApiController.callBack'
             /***************************************************************************
              *                                                                          *
              * Custom routes here...                                                    *
