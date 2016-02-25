@@ -32,7 +32,10 @@ module.exports.routes = {
      ***************************************************************************/
 
     '/fitbit/': 'FitbitApiController.auth',
-    '/fitbit/callback': 'FitbitApiController.callBack'
+    '/fitbit/callback': 'FitbitApiController.callBack',
+    '/fitbit/activity': 'FitbitApiController.getDailyActivitySummary',
+    '/nest/': "NestApiController.auth",
+    '/nest/callback': "NestApiController.callback"
             /***************************************************************************
              *                                                                          *
              * Custom routes here...                                                    *
